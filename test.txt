@@ -1,2 +1,15 @@
 Github入门教程，适合新手学习（非常详细）
 https://blog.csdn.net/black_sneak/article/details/139600633
+
+
+# 1. 查看状态（确认修改）
+git status
+
+# 2. 添加修改到暂存区
+git add test.txt
+
+# 3. 提交更改
+git commit -m "在 test.txt 中添加了新的内容"
+
+# 4. 推送到远程仓库
+git push origin main
